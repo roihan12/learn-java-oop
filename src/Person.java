@@ -4,4 +4,9 @@ class Person {
 
     final String country = "Indonesia";
 
+    void sayHello(String paramName) {
+
+        System.out.println("Hello " + paramName + ", My name is " + name);
+    }
+
 }
