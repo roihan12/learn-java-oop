@@ -4,15 +4,17 @@ class Person {
 
     final String country = "Indonesia";
 
-
+    // Constructor
     Person(String name, String address) {
         this.name = name;
         this.address = address;
     }
 
+    // Call  Constructor using this
     Person(String paramName) {
-       this(paramName, null);
+        this(paramName, null);
     }
+
     Person() {
         this(null);
     }
