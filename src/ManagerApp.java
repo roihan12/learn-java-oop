@@ -8,6 +8,6 @@ public class ManagerApp {
         vp.name = "Test";
         vp.sayHello("Test 1");
 
-
+        System.out.println(manager.toString());
     }
 }
