@@ -1,6 +1,7 @@
 package roihan.sori.nas.app;
 
-import roihan.sori.nas.data.Product;
+
+import roihan.sori.nas.data.*;
 
 public class Application {
     public static void main(String[] args) {
@@ -8,6 +9,9 @@ public class Application {
 
         System.out.println(product.name);
         System.out.println(product.price);
+
+        Data data = new Data();
+
     }
 
 }
