@@ -1,3 +1,5 @@
+package learn.java.standar.classes;
+
 public class StringApp {
     public static void main(String[] args) {
         String name = "Roihan Sori";
